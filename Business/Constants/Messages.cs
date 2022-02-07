@@ -20,7 +20,6 @@ namespace Business.Constants
         public static string ProductNameAlreadyExists = "Ürün ismi tabloda yer alıyor.";
         public static string CategoryListed = "Kategoriler listelendi.";
         public static string AuthorizationDenied = "Yetkiniz yok.";
-
         public static string UserRegistered = "Kullanıcı oluşturuldu.";
         public static string UserNotFound = "Kullanıcı bulunamadı.";
         public static string PasswordError = "Şifre hatalı.";

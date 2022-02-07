@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Core.Extensions
 {
-    public static class ServiceCollectionExtensions
+    public static class ServiceCollectionExtensions //Extension yazabilmek için "static class"a ihtiyacımız vardır!
     {
         public static IServiceCollection AddDependencyResolvers(this IServiceCollection serviceCollection, ICoreModule[] modules)
         {
